@@ -4,7 +4,7 @@ Voyons ce qui est spécial à propos de JavaScript, ce qu'il nous permet de fair
 
 ## Qu'est-ce que JavaScript?
 
-*JavaScript* a été initiallement créé pour "rendre les pages web vivantes".
+*JavaScript* a été initialement créé pour "rendre les pages web vivantes".
 
 Les programmes dans ce langage sont appelés *scripts*. Ils peuvent être écrits directement dans une page HTML et exécutés automatiquement au chargement des pages.
 
@@ -18,7 +18,7 @@ Quand Javascript a été créé, il portait initialement un autre nom : "LiveScr
 Mais au fur et à mesure de son évolution, JavaScript est devenu un langage totalement indépendant, avec ses propres spécifications appelées [ECMAScript](https://fr.wikipedia.org/wiki/ECMAScript), aujourd'hui il n'a aucun rapport avec Java.
 ```
 
-Aujourd'hui, JavaScript peut s'exécuter non seulement dans le navigateur, mais également sur serveur, ou encore sur n'importe quel appareil dans lequel existe un programme appelé [le moteur JavaScript](https://fr.wikipedia.org/wiki/Moteur_JavaScript).
+Aujourd'hui, JavaScript peut s'exécuter non seulement dans le navigateur, mais également sur un serveur, ou encore sur n'importe quel appareil dans lequel existe un programme appelé [le moteur JavaScript](https://fr.wikipedia.org/wiki/Moteur_JavaScript).
 
 Le navigateur a un moteur intégré, parfois il peut être également appelé "la machine virtuelle JavaScript".
 
@@ -26,7 +26,7 @@ Différents moteurs ont différents "nom de code", par exemple:
 
 - [V8](https://fr.wikipedia.org/wiki/V8_(moteur_JavaScript)) -- dans Chrome et Opera.
 - [SpiderMonkey](https://fr.wikipedia.org/wiki/SpiderMonkey) -- dans Firefox.
-- … Il existe d'autres noms de code comme "Trident", "Chakra" pour différentes version d'Internet Explorer, "ChakraCore" pour Microsoft Edge, "Nitro" ans "SquirrelFish" pour Safari etc.
+- … Il existe d'autres noms de code comme "Trident", "Chakra" pour différentes versions d'Internet Explorer, "ChakraCore" pour Microsoft Edge, "Nitro" et "SquirrelFish" pour Safari etc.
 
 Les termes ci-dessus sont bons à retenir, car ils sont utilisés dans les articles destinés aux développeurs sur Internet. Nous les utiliserons aussi. Par exemple, si "une fonctionnalité X est prise en charge par V8", cela fonctionne probablement dans Chrome et Opera.
 
@@ -51,7 +51,7 @@ JavaScript intégré au navigateur peut faire tout ce qui concerne la manipulati
 
 Par exemple, JavaScript dans le navigateur est capable de : 
 
-- Ajoutez un nouveau code HTML à la page, modifiez le contenu existant, modifiez les styles.
+- Ajouter un nouveau code HTML à la page, modifier le contenu existant, modifier les styles.
 - Réagir aux actions de l'utilisateur, s'exécuter sur des clics de souris, des mouvements de pointeur, des appuis sur des touches.
 - Envoyer des requêtes sur le réseau à des serveurs distants, télécharger et envoyer des fichiers (technologies [AJAX](https://fr.wikipedia.org/wiki/Ajax_(informatique)) et [COMET](https://fr.wikipedia.org/wiki/Comet_(informatique))).
 - Obtenir et définir des cookies, poser des questions au visiteur, afficher des messages.
